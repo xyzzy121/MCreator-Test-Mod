@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Popular Monster (Stereo Test)",
+    "texture": "popular_monster_disc",
+    "description": "Popular Monster — Falling In Reverse (Stereo Test)",
+    "creativeTab": {
+      "value": "CUSTOM:TestCreativeInventoryTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:pop_stereo"
+    },
+    "lengthInTicks": 4400,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Let It All Burn",
+    "texture": "popular_monster_disc",
+    "description": "Let It All Burn — Fabvl",
+    "creativeTab": {
+      "value": "CUSTOM:TestCreativeInventoryTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:letitallburn"
+    },
+    "lengthInTicks": 4340,
+    "analogOutput": 0
+  }
+}

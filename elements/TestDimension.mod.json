@@ -1,0 +1,71 @@
+{
+  "_fv": 43,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "nether"
+      },
+      {
+        "value": "soul_sand_valley"
+      },
+      {
+        "value": "CUSTOM:TestBiome"
+      },
+      {
+        "value": "CUSTOM:SurfaceTestBiome"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "crimson_forest"
+      },
+      {
+        "value": "grove"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.SCULK"
+    },
+    "fluidBlock": {
+      "value": "Blocks.LAVA"
+    },
+    "airColor": {
+      "value": -10079488,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:SkulkPortalBlock"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Dimension Cracker",
+    "igniterTab": {
+      "value": "CUSTOM:TestCreativeInventoryTab"
+    },
+    "texture": "testtexture1",
+    "portalTexture": "fallen_exe",
+    "enablePortal": true
+  }
+}

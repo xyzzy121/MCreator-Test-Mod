@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Lost It All",
+    "texture": "popular_monster_disc",
+    "description": "Lost It All — Fabvl",
+    "creativeTab": {
+      "value": "CUSTOM:TestCreativeInventoryTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:lostitall"
+    },
+    "lengthInTicks": 4840,
+    "analogOutput": 0
+  }
+}

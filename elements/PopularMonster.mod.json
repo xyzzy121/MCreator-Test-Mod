@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Popular Monster",
+    "texture": "popular_monster_disc",
+    "description": "Popular Monster — Falling In Reverse",
+    "creativeTab": {
+      "value": "CUSTOM:TestCreativeInventoryTab"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:pop"
+    },
+    "lengthInTicks": 4400,
+    "analogOutput": 0
+  }
+}
