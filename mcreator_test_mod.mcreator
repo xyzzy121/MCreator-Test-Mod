@@ -1,0 +1,902 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestAdvancement",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/advancements/test_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "TestDimension",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/world/teleporter/TestDimensionTeleporter.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/test_dimension.json",
+          "src/main/resources/data/mcreator_test_mod/dimension/test_dimension.json",
+          "src/main/resources/data/mcreator_test_mod/dimension_type/test_dimension.json",
+          "src/main/java/paradox_testmod/world/dimension/TestDimensionDimension.java",
+          "src/main/java/paradox_testmod/item/TestDimensionItem.java",
+          "src/main/java/paradox_testmod/block/TestDimensionPortalBlock.java",
+          "src/main/resources/assets/mcreator_test_mod/models/block/test_dimension_portal_ew.json",
+          "src/main/resources/assets/mcreator_test_mod/models/block/test_dimension_portal_ns.json",
+          "src/main/java/paradox_testmod/world/teleporter/TestDimensionPortalShape.java",
+          "src/main/resources/assets/mcreator_test_mod/blockstates/test_dimension_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "EnterTestDimension",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_test_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/advancements/enter_test_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "SkulkPortalBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_portal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/blockstates/skulk_portal_block.json",
+          "src/main/resources/assets/mcreator_test_mod/models/block/skulk_portal_block.json",
+          "src/main/resources/assets/mcreator_test_mod/models/item/skulk_portal_block.json",
+          "src/main/java/paradox_testmod/block/SkulkPortalBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TestCreativeInventoryTab",
+      "type": "tab",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_creative_inventory_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RecipeCreateSkulkPortalBlock",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_create_skulk_portal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/recipe_create_skulk_portal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CreatePortalItem",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_portal_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/create_portal_item.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancementMadePortalBlock",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancement_made_portal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/advancements/advancement_made_portal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PopularMonster",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popular_monster",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/PopularMonsterItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/popular_monster.json"
+        ]
+      }
+    },
+    {
+      "name": "VergilPainting",
+      "type": "painting",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vergil_painting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Leonkennedy",
+      "type": "painting",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leonkennedy",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/paintings"
+    },
+    {
+      "name": "Painting1",
+      "type": "painting",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painting_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/paintings"
+    },
+    {
+      "name": "StarsteelIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/StarsteelIngotItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_ingot.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_ore.json",
+          "src/main/java/paradox_testmod/world/features/ores/StarsteelOreFeature.java",
+          "src/main/resources/assets/mcreator_test_mod/blockstates/starsteel_ore.json",
+          "src/main/java/paradox_testmod/block/StarsteelOreBlock.java",
+          "src/main/resources/assets/mcreator_test_mod/models/block/starsteel_ore.json",
+          "src/main/resources/data/mcreator_test_mod/forge/biome_modifier/starsteel_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/blockstates/starsteel_block.json",
+          "src/main/java/paradox_testmod/block/StarsteelBlockBlock.java",
+          "src/main/resources/assets/mcreator_test_mod/models/block/starsteel_block.json",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_block.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelOreSmelting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_ore_smelting.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_pickaxe.json",
+          "src/main/java/paradox_testmod/item/StarsteelPickaxeItem.java"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/StarsteelAxeItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_axe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/StarsteelSwordItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_sword.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_shovel.json",
+          "src/main/java/paradox_testmod/item/StarsteelShovelItem.java"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/StarsteelHoeItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_hoe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_sword_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_chestplate.json",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_boots.json",
+          "src/main/java/paradox_testmod/item/StarsteelArmorItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_helmet.json",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_leggings.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "StarsteelPickaxeHoldAdvancement",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsteel_pickaxe_hold_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/advancements/starsteel_pickaxe_hold_advancement.json"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "EzCommandCheat",
+      "type": "command",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ez_command_cheat",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/command/EzCommandCheatCommand.java"
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "Excommandcheatprocedure",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excommandcheatprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/procedures/ExcommandcheatprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Falsestar stuff"
+    },
+    {
+      "name": "LightYagami",
+      "type": "painting",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_yagami",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/paintings"
+    },
+    {
+      "name": "TestBiome",
+      "type": "biome",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/world/biome/TestBiomeBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "Ranged",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranged",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/RangedItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/ranged.json",
+          "src/main/java/paradox_testmod/entity/RangedEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "EnchantmentTest",
+      "type": "enchantment",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantment_test",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/enchantment/EnchantmentTestEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "PopularMonsterStereoTest",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popular_monster_stereo_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/popular_monster_stereo_test.json",
+          "src/main/java/paradox_testmod/item/PopularMonsterStereoTestItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SurfaceTestBiome",
+      "type": "biome",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surface_test_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/world/biome/SurfaceTestBiomeBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "LostItAll",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_it_all",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/LostItAllItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/lost_it_all.json"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "WorldINeverKnew",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_i_never_knew",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/WorldINeverKnewItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/world_i_never_knew.json"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "Addict",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "addict",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/addict.json",
+          "src/main/java/paradox_testmod/item/AddictItem.java"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "LetItAllBurn",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "let_it_all_burn",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/LetItAllBurnItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/let_it_all_burn.json"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "Moonwalker",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonwalker",
+      "metadata": {
+        "files": [
+          "src/main/java/paradox_testmod/item/MoonwalkerItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/moonwalker.json"
+        ]
+      },
+      "path": "~/Music"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "pop",
+      "files": [
+        "spotifydown.com_-_popular_monster"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "pop_stereo",
+      "files": [
+        "popularmonsterstereo"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "watchtheworldburn",
+      "files": [
+        "spotifydown.com_-_watch_the_world_burn"
+      ],
+      "category": "record",
+      "subtitle": "Watch The World Burn — Falling In Reverse"
+    },
+    {
+      "name": "voicesinmyhead",
+      "files": [
+        "spotifydown.com_-_voices_in_my_head"
+      ],
+      "category": "record",
+      "subtitle": "Voices In My Head — Falling In Reverse"
+    },
+    {
+      "name": "addict",
+      "files": [
+        "spotifydown.com_-_addict_inspired_by__hellsing_ultimate_"
+      ],
+      "category": "record",
+      "subtitle": "Addict - Fabvl"
+    },
+    {
+      "name": "crossmyheart",
+      "files": [
+        "spotifydown.com_-_cross_my_heart_reimagined"
+      ],
+      "category": "record",
+      "subtitle": "Cross My Heart Reimagined - Fabvl"
+    },
+    {
+      "name": "fallenangel",
+      "files": [
+        "spotifydown.com_-_fallen_angel"
+      ],
+      "category": "record",
+      "subtitle": "Fallen Angel - Three Days Grace"
+    },
+    {
+      "name": "letitallburn",
+      "files": [
+        "spotifydown.com_-_let_it_all_burn"
+      ],
+      "category": "record",
+      "subtitle": "Let It All Burn — Fabvl"
+    },
+    {
+      "name": "straighttotheend",
+      "files": [
+        "spotifydown.com_-_straight_to_the_end"
+      ],
+      "category": "record",
+      "subtitle": "Straight To The End — Fabvl"
+    },
+    {
+      "name": "worldineverknew",
+      "files": [
+        "spotifydown.com_-_world_i_never_knew"
+      ],
+      "category": "record",
+      "subtitle": "World I Never Knew — Fabvl"
+    },
+    {
+      "name": "moonwalker",
+      "files": [
+        "spotifydown.com_-_moonwalker"
+      ],
+      "category": "record",
+      "subtitle": "Moonwalker — Fabvl"
+    },
+    {
+      "name": "zombified",
+      "files": [
+        "spotifydown.com_-_zombified"
+      ],
+      "category": "record",
+      "subtitle": "Zombified — Falling In Reverse"
+    },
+    {
+      "name": "lostitall",
+      "files": [
+        "spotifydown.com_-_lost_it_all"
+      ],
+      "category": "neutral",
+      "subtitle": "Lost It All — Fabvl"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.mcreator_test_mod.obamium_armor_leggings": "Night Leggings",
+      "subtitles.addict": "Addict - Fabvl",
+      "item.mcreator_test_mod.starsteel_shovel": "Starsteel Shovel",
+      "subtitles.worldineverknew": "World I Never Knew — Fabvl",
+      "subtitles.moonwalker": "Moonwalker — Fabvl",
+      "painting.mcreator_test_mod.light_yagami.author": "Paradox",
+      "subtitles.fallenangel": "Fallen Angel - Three Days Grace",
+      "block.mcreator_test_mod.skulk_portal_block": "Skulk Portal Block",
+      "advancements.test_advancement.title": "Apples...",
+      "biome.mcreator_test_mod.test_biome": "Test Biome",
+      "item.mcreator_test_mod.addict.desc": "Addict — Fabvl",
+      "item.mcreator_test_mod.moonwalker.desc": "Moonwalker — Fabvl",
+      "painting.mcreator_test_mod.painting_1.author": "Paradox",
+      "item.mcreator_test_mod.popular_monster.desc": "Popular Monster — Falling In Reverse",
+      "itemGroup.tabtest_creative_inventory_tab": "The Heart of Paradox",
+      "block.mcreator_test_mod.starsteel_block": "Block of Starsteel",
+      "subtitles.f": "",
+      "item.mcreator_test_mod.let_it_all_burn": "Let It All Burn",
+      "item.mcreator_test_mod.obamium_armor_boots": "Night Boots",
+      "item.mcreator_test_mod.let_it_all_burn.desc": "Let It All Burn — Fabvl",
+      "item.mcreator_test_mod.ranged": "Test Ranged Weapon",
+      "painting.mcreator_test_mod.leonkennedy.author": "Paradox",
+      "painting.mcreator_test_mod.leonkennedy.title": "LeonKennedyPainting",
+      "advancements.enter_test_dimension.descr": "You did it. Yay. I guess.",
+      "item.mcreator_test_mod.popular_monster": "Popular Monster",
+      "item.mcreator_test_mod.starsteel_armor_chestplate": "Starsteel Chestplate",
+      "subtitles.letitallburn": "Let It All Burn — Fabvl",
+      "item.mcreator_test_mod.popular_monster_stereo_test": "Popular Monster (Stereo Test)",
+      "advancements.advancement_made_portal_block.title": "Odd...",
+      "item.mcreator_test_mod.starsteel_armor_helmet": "Starsteel Helmet",
+      "item.mcreator_test_mod.starsteel_axe": "Starsteel Axe",
+      "item.mcreator_test_mod.test_dimension": "Dimension Cracker",
+      "painting.mcreator_test_mod.painting_1.title": "AjinPainting",
+      "subtitles.pop_stereo": "",
+      "item.mcreator_test_mod.starsteel_armor_boots": "Starsteel Boots",
+      "advancements.starsteel_pickaxe_hold_advancement.title": "Starsteel Pickaxe Hold Advancement",
+      "painting.mcreator_test_mod.light_yagami.title": "Light Yagami",
+      "biome.mcreator_test_mod.surface_test_biome": "Surface Test Biome",
+      "item.mcreator_test_mod.starsteel_armor_leggings": "Starsteel Leggings",
+      "subtitles.voicesinmyhead": "Voices In My Head — Falling In Reverse",
+      "item.mcreator_test_mod.starsteel_ingot": "Starsteel",
+      "item.mcreator_test_mod.lost_it_all": "Lost It All",
+      "subtitles.popular_monster_falling_in_reverse": "Popular Monster — Falling In Reverse",
+      "block.mcreator_test_mod.starsteel_ore": "Starsteel Ore",
+      "painting.mcreator_test_mod.vergil_painting.author": "Paradox",
+      "item.mcreator_test_mod.world_i_never_knew.desc": "World I Never Knew — Fabvl",
+      "subtitles.popular_monster": "Popular Monster — Falling In Reverse",
+      "subtitles.pop": "",
+      "item.mcreator_test_mod.world_i_never_knew": "World I Never Knew",
+      "subtitles.lostitall": "Lost It All — Fabvl",
+      "item.mcreator_test_mod.lost_it_all.desc": "Lost It All — Fabvl",
+      "painting.mcreator_test_mod.vergil_painting.title": "Vergil Painting",
+      "advancements.enter_test_dimension.title": "Enter Test Dimension",
+      "subtitles.crossmyheart": "Cross My Heart Reimagined - Fabvl",
+      "item_group.mcreator_test_mod.test_creative_inventory_tab": "The Heart of Paradox",
+      "item.mcreator_test_mod.starsteel_sword": "Starsteel Sword",
+      "item.mcreator_test_mod.starsteel_hoe": "Starsteel Hoe",
+      "item.mcreator_test_mod.obamium_armor_helmet": "Night Helm",
+      "enchantment.mcreator_test_mod.enchantment_test": "Improved Protection",
+      "item.mcreator_test_mod.moonwalker": "Moonwalker",
+      "item.mcreator_test_mod.popular_monster_stereo_test.desc": "Popular Monster — Falling In Reverse (Stereo Test)",
+      "subtitles.watchtheworldburn": "Watch The World Burn — Falling In Reverse",
+      "advancements.test_advancement.descr": "You have aken part in the Holy Eucharist of Apples. You are now blessed with the experience of God.",
+      "subtitles.zombified": "Zombified — Falling In Reverse",
+      "item.mcreator_test_mod.addict": "Addict",
+      "item.mcreator_test_mod.obamium_armor_chestplate": "Night Chestplate",
+      "subtitles.straighttotheend": "Straight To The End — Fabvl",
+      "advancements.advancement_made_portal_block.descr": "You have created something new...",
+      "advancements.starsteel_pickaxe_hold_advancement.descr": "So this is the power of Starsteel...",
+      "item.mcreator_test_mod.starsteel_pickaxe": "Starsteel Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "paintings",
+        "children": []
+      },
+      {
+        "name": "Falsestar stuff",
+        "children": []
+      },
+      {
+        "name": "Music",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mcreator_test_mod",
+    "modName": "MCreator Test Mod",
+    "version": "1.0.0",
+    "description": "A mod of random bullshit.",
+    "author": "Paradox",
+    "websiteURL": "https://mcreator.net",
+    "license": "WTFPL",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "paradox_light_yagami_deb68b6f-fb30-4ffb-ba5e-986443e2e306",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "MCreator",
+    "modElementsPackage": "paradox_testmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

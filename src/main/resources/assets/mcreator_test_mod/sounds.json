@@ -1,0 +1,117 @@
+{
+  "pop": {
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_popular_monster",
+        "stream": true
+      }
+    ]
+  },
+  "pop_stereo": {
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:popularmonsterstereo",
+        "stream": true
+      }
+    ]
+  },
+  "watchtheworldburn": {
+    "subtitle": "subtitles.watchtheworldburn",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_watch_the_world_burn",
+        "stream": true
+      }
+    ]
+  },
+  "voicesinmyhead": {
+    "subtitle": "subtitles.voicesinmyhead",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_voices_in_my_head",
+        "stream": true
+      }
+    ]
+  },
+  "addict": {
+    "subtitle": "subtitles.addict",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_addict_inspired_by__hellsing_ultimate_",
+        "stream": true
+      }
+    ]
+  },
+  "crossmyheart": {
+    "subtitle": "subtitles.crossmyheart",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_cross_my_heart_reimagined",
+        "stream": true
+      }
+    ]
+  },
+  "fallenangel": {
+    "subtitle": "subtitles.fallenangel",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_fallen_angel",
+        "stream": true
+      }
+    ]
+  },
+  "letitallburn": {
+    "subtitle": "subtitles.letitallburn",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_let_it_all_burn",
+        "stream": true
+      }
+    ]
+  },
+  "straighttotheend": {
+    "subtitle": "subtitles.straighttotheend",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_straight_to_the_end",
+        "stream": true
+      }
+    ]
+  },
+  "worldineverknew": {
+    "subtitle": "subtitles.worldineverknew",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_world_i_never_knew",
+        "stream": true
+      }
+    ]
+  },
+  "moonwalker": {
+    "subtitle": "subtitles.moonwalker",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_moonwalker",
+        "stream": true
+      }
+    ]
+  },
+  "zombified": {
+    "subtitle": "subtitles.zombified",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_zombified",
+        "stream": true
+      }
+    ]
+  },
+  "lostitall": {
+    "subtitle": "subtitles.lostitall",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_lost_it_all",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mcreator_test_mod:items/starsteel_sword"
+  }
+}

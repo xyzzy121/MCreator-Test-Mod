@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mcreator_test_mod:blocks/starsteel_ore_block",
+    "particle": "mcreator_test_mod:blocks/starsteel_ore_block"
+  },
+  "render_type": "solid"
+}

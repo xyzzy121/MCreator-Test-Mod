@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="WTFPL"
+
+[[mods]]
+modId="mcreator_test_mod"
+version="1.0.0"
+displayName="MCreator Test Mod"
+credits="MCreator"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Paradox"
+description="A mod of random bullshit."
+
+[[dependencies.mcreator_test_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mcreator_test_mod:starsteel_block"
+    }
+  ],
+  "result": {
+    "item": "mcreator_test_mod:starsteel_ingot",
+    "count": 9
+  }
+}

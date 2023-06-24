@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mcreator_test_mod:starsteel_ore"
+  },
+  "result": "mcreator_test_mod:starsteel_ingot"
+}

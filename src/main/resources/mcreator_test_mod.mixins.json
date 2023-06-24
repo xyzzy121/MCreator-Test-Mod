@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "paradox_testmod.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"McreatorTestModModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

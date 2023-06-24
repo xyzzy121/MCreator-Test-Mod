@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mcreator_test_mod:starsteel_ingot"
+    },
+    "2": {
+      "item": "mcreator_test_mod:starsteel_ingot"
+    },
+    "3": {
+      "item": "mcreator_test_mod:starsteel_ingot"
+    },
+    "5": {
+      "item": "mcreator_test_mod:starsteel_ingot"
+    }
+  },
+  "result": {
+    "item": "mcreator_test_mod:starsteel_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "advancements.enter_test_dimension.title"
+    },
+    "description": {
+      "translate": "advancements.enter_test_dimension.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_test_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mcreator_test_mod:test_dimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "mcreator_test_mod:test_advancement"
+}

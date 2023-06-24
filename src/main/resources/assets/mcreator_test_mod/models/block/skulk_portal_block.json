@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mcreator_test_mod:blocks/warden_frame_side_clipped",
+    "up": "mcreator_test_mod:blocks/warden_frame_top",
+    "north": "mcreator_test_mod:blocks/warden_frame_side_clipped",
+    "east": "mcreator_test_mod:blocks/warden_frame_side_clipped",
+    "south": "mcreator_test_mod:blocks/warden_frame_side_clipped",
+    "west": "mcreator_test_mod:blocks/warden_frame_side_clipped",
+    "particle": "mcreator_test_mod:blocks/warden_frame_side_clipped"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "mcreator_test_mod:test_biome",
+    "mcreator_test_mod:surface_test_biome"
+  ]
+}

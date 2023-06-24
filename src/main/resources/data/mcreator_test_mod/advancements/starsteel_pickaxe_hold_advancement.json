@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "mcreator_test_mod:starsteel_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.starsteel_pickaxe_hold_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.starsteel_pickaxe_hold_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "starsteel_pickaxe_hold_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mcreator_test_mod:starsteel_pickaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 99999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 60000
+  },
+  "parent": "mcreator_test_mod:test_advancement"
+}

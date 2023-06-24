@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mcreator_test_mod:block/test_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "mcreator_test_mod:block/test_dimension_portal_ns"
+    }
+  }
+}
